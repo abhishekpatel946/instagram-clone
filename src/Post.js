@@ -43,7 +43,7 @@ function Post({ username, user, caption, imageUrl, postId }) {
       <div className="post_header">
         <Avatar
           className="post_avatar"
-          alt="AbhishekPatel"
+          alt=""
           src="/static/image/avatar/1.jpg"
         />
         <h3>{username}</h3>
@@ -58,10 +58,10 @@ function Post({ username, user, caption, imageUrl, postId }) {
 
       {/* comments from firebase */}
       <div className="post_comments">
-        {comments.map((comment) => (
+        {comments.map((index) => (
           <p>
             <strong>{comment.username}</strong>
-            {comment.comment}
+            {index.comment}
           </p>
         ))}
       </div>

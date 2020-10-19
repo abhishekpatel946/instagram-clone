@@ -33,8 +33,11 @@
 }
 
 .post_comments {
-  display: flex;
   padding: 20px;
+  /* display: flex; */
+}
+.post_comments > strong {
+  margin-right: 10px;
 }
 
 .post_commentBox {

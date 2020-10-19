@@ -18,6 +18,9 @@
 }
 
 .app_header {
+  position: static;
+  top: 0;
+  z-index: 1;
   background-color: white;
   padding: 20px;
   border-bottom: 1px solid lightgray;
