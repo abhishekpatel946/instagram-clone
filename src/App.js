@@ -2,9 +2,10 @@ import React, { useEffect, useState } from "react";
 import "./App.css";
 import Post from "./Post";
 import Image from "./ImageUpload";
-import { auth, db } from "./Firebase";
+import { auth, db } from "./firebase";
 import { Button, Input, Modal } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
+import InstagramEmbed from "react-instagram-embed";
 
 function getModalStyle() {
   const top = 50;
@@ -70,15 +71,17 @@ function App() {
   // useEffect - Runs a piece of code based on a specific conidition
   useEffect(() => {
     // this is where the code runs
-    db.collection("posts").onSnapshot((snapshot) => {
-      // every time a new post is added, this code fires...
-      setPosts(
-        snapshot.docs.map((doc) => ({
-          id: doc.id,
-          post: doc.data(),
-        }))
-      );
-    });
+    db.collection("posts")
+      .orderBy("timestamp", "desc")
+      .onSnapshot((snapshot) => {
+        // every time a new post is added, this code fires...
+        setPosts(
+          snapshot.docs.map((doc) => ({
+            id: doc.id,
+            post: doc.data(),
+          }))
+        );
+      });
   }, []);
 
   const signUp = (event) => {
@@ -104,11 +107,7 @@ function App() {
 
   return (
     <div className="app">
-      {user?.displayName ? (
-        <Image username={user.displayName} />
-      ) : (
-        <h3>Sorry, You neet to login uplaod..!</h3>
-      )}
+      {/* modal for singIn */}
       <Modal open={openSignIn} onClose={() => setOpenSignIn(false)}>
         <div style={modalStyle} className={classes.paper}>
           <form className="app_signin">
@@ -138,6 +137,7 @@ function App() {
         </div>
       </Modal>
 
+      {/* modal for singUp */}
       <Modal open={open} onClose={() => setOpen(false)}>
         <div style={modalStyle} className={classes.paper}>
           <form className="app_signup">
@@ -173,30 +173,61 @@ function App() {
         </div>
       </Modal>
 
+      {/* instagram header */}
       <div className="app_header">
         <img
-          className=""
+          className="app_header_image"
           src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"
           alt=""
         />
+        {/* user singIn | singUp | logout section */}
+        {user ? (
+          <Button onClick={() => auth.signOut()}>Logout</Button>
+        ) : (
+          <div className="app_loginContainer">
+            <Button onClick={() => setOpenSignIn(true)}>Sign In</Button>
+            <Button onClick={() => setOpen(true)}>Sign Up</Button>
+          </div>
+        )}
       </div>
 
-      {user ? (
-        <Button onClick={() => auth.signOut()}>Logout</Button>
-      ) : (
-        <div className="app_loginContainer">
-          <Button onClick={() => setOpenSignIn(true)}>Sign In</Button>
-          <Button onClick={() => setOpen(true)}>Sign Up</Button>
+      {/* post section */}
+      <div className="app_posts">
+        <div className="app_postLeft">
+          {posts.map(({ id, post }) => (
+            <Post
+              key={id}
+              postId={id}
+              user={user}
+              username={post.username}
+              caption={post.caption}
+              imageUrl={post.imageUrl}
+            />
+          ))}
         </div>
+        <div className="app_postRight">
+          {/* instagram-embed */}
+          <InstagramEmbed
+            url="https://www.instagram.com/p/CGgTyLTgAvL/"
+            maxWidth={320}
+            hideCaption={false}
+            containerTagName="div"
+            protocol=""
+            injectScript
+            onLoading={() => {}}
+            onSuccess={() => {}}
+            onAfterRender={() => {}}
+            onFailure={() => {}}
+          />
+        </div>
+      </div>
+
+      {/* image upload section */}
+      {user?.displayName ? (
+        <Image username={user.displayName} />
+      ) : (
+        <h3>Sorry, You neet to login uplaod..!</h3>
       )}
-      {posts.map(({ id, post }) => (
-        <Post
-          key={id}
-          username={post.username}
-          caption={post.caption}
-          imageUrl={post.imageUrl}
-        />
-      ))}
     </div>
   );
 }
