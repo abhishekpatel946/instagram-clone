@@ -14,11 +14,11 @@
 }
 
 .app_postRight {
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 .app_header {
-  position: static;
+  position: sticky;
   top: 0;
   z-index: 1;
   background-color: white;

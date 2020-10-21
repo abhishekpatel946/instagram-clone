@@ -43,7 +43,7 @@ function Post({ username, user, caption, imageUrl, postId }) {
       <div className="post_header">
         <Avatar
           className="post_avatar"
-          alt=""
+          alt="AbhishekPatel"
           src="/static/image/avatar/1.jpg"
         />
         <h3>{username}</h3>
@@ -60,29 +60,31 @@ function Post({ username, user, caption, imageUrl, postId }) {
       <div className="post_comments">
         {comments.map((index) => (
           <p>
-            <strong>{comment.username}</strong>
-            {index.comment}
+            <strong>{index.username}</strong>
+            <p className="post_comments_p">{index.comment}</p>
           </p>
         ))}
       </div>
 
-      <form className="post_commentBox">
-        <input
-          className="post_input"
-          type="text"
-          placeholder="Add a comments..."
-          value={comment}
-          onChange={(e) => setComment(e.target.value)}
-        />
-        <button
-          className="post_button"
-          disabled={!comment}
-          type="submit"
-          onClick={postComment}
-        >
-          Post
-        </button>
-      </form>
+      {user && (
+        <form className="post_commentBox">
+          <input
+            className="post_input"
+            type="text"
+            placeholder="Add a comments..."
+            value={comment}
+            onChange={(e) => setComment(e.target.value)}
+          />
+          <button
+            className="post_button"
+            disabled={!comment}
+            type="submit"
+            onClick={postComment}
+          >
+            Post
+          </button>
+        </form>
+      )}
     </div>
   );
 }

@@ -223,11 +223,12 @@ function App() {
       </div>
 
       {/* image upload section */}
-      {user?.displayName ? (
+      {/* {user?.displayName ? (
         <Image username={user.displayName} />
       ) : (
         <h3>Sorry, You neet to login uplaod..!</h3>
-      )}
+      )} */}
+      {user && <Image username={user.displayName} />}
     </div>
   );
 }

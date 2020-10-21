@@ -34,10 +34,11 @@
 
 .post_comments {
   padding: 20px;
-  /* display: flex; */
 }
-.post_comments > strong {
-  margin-right: 10px;
+
+.post_comments > p {
+  margin-bottom: 10px;
+  display: flex;
 }
 
 .post_commentBox {
