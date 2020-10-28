@@ -53,7 +53,7 @@ here it is :- https://instagram-clone-59a0c.web.app/
 This section should list any major frameworks that you built using your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples:
 * [React](https://reactjs.org/docs/getting-started.html)
 * [Firebase](https://firebase.google.com/docs)
-* [Material UI]([https://](https://material-ui.com/))
+* [Material UI](https://material-ui.com/)
 
 
 
@@ -100,8 +100,8 @@ npm start
 ![2](https://github.com/abhishekpatel946/instagram-clone/blob/master/src/Assets/1.png)
 ![3](https://github.com/abhishekpatel946/instagram-clone/blob/master/src/Assets/2.png)
 
-_For more examples, please refer to the [Documentation]()_
 
+_For more examples, please refer to the [Documentation]()_
 
 
 <!-- ROAD MAP -->
