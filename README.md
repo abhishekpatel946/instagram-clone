@@ -41,7 +41,7 @@
   </a>
 </p>
 
-# [Insgtram Clone]([https://](https://instagram-clone-59a0c.web.app/))
+# [Insgtram Clone](https://instagram-clone-59a0c.web.app/)
 
 This is the fun project clone an Instgram and make major functionality like upload a post, comment a post, singIn-singUp authentication etc...
 
