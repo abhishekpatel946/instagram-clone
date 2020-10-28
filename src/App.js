@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
-import Post from "./Post";
-import Image from "./ImageUpload";
-import { auth, db } from "./firebase";
+import Post from "./Components/Post/Post";
+import Image from "./Components/Upload/ImageUpload";
+import { auth, db } from "./Firebase/firebase";
 import { Button, Input, Modal } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import InstagramEmbed from "react-instagram-embed";

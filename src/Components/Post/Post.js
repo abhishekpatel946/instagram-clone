@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Post.css";
 import Avatar from "@material-ui/core/Avatar";
-import { db } from "./firebase";
+import { db } from "../../Firebase/firebase";
 import firebase from "firebase";
 
 function Post({ username, user, caption, imageUrl, postId }) {
