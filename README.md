@@ -1,68 +1,148 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
 
-## Available Scripts
 
-In the project directory, you can run:
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/abhishekpatel946/instagram-clone">
+    <img src="src/Assets/logo-readme.png" alt="Logo" width="80" height="80">
+  </a>
 
-### `npm start`
+  <h3 align="center">Unofficial Netflix - README</h3>
+</p>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `npm test`
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Insgtram Clone)](#insgtram-clone)
+    - [Built With](#built-with)
+  - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+  - [Usage](#usage)
+  - [Road map](#road-map)
+  - [Contributing](#contributing)
+  - [Contact](#contact)
+  - [Acknowledgements](#acknowledgements)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+<!-- ABOUT THE PROJECT -->
+## About The Project
+<p align="center">
+  <a href="https://github.com/abhishekpatel946/instagram-clone">
+<!--     <img src="Icon/logo-passmanager.jpeg" alt="Logo" width="100" height="100"> -->
+    <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png" alt="Logo" width="600" height="200">
+  </a>
+</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# [Insgtram Clone]([https://](https://instagram-clone-59a0c.web.app/))
 
-### `npm run eject`
+This is the fun project clone an Instgram and make major functionality like upload a post, comment a post, singIn-singUp authentication etc...
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+For the frontend we're used here React and Custom CSS for styling and hosted using Firebase.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+here it is :- https://instagram-clone-59a0c.web.app/
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Built With
+This section should list any major frameworks that you built using your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples:
+* [React](https://reactjs.org/docs/getting-started.html)
+* [Firebase](https://firebase.google.com/docs)
+* [Material UI]([https://](https://material-ui.com/))
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<!-- GETTING STARTED -->
+## Getting Started
 
-### Code Splitting
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+### Prerequisites
 
-### Analyzing the Bundle Size
+```sh
+React
+```
+```sh
+npm
+```
+```sh
+firebase
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+### Installation
 
-### Making a Progressive Web App
+1. Fork the repo
+```sh
+Fork
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+2. Clone the repo
+```sh
+https://githubc.com/abhishekpatel946/instagram-clone.git
+```
 
-### Advanced Configuration
+3. Run on localhost
+```sh
+npm start
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+<!-- USAGE EXAMPLES -->
+## Usage
 
-### Deployment
+![1](https://github.com/abhishekpatel946/instagram-clone/blob/master/src/Assets/3.png)
+![2](https://github.com/abhishekpatel946/instagram-clone/blob/master/src/Assets/1.png)
+![3](https://github.com/abhishekpatel946/instagram-clone/blob/master/src/Assets/2.png)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+_For more examples, please refer to the [Documentation]()_
 
-### `npm run build` fails to minify
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+<!-- ROAD MAP -->
+## Road map
+
+See the [open issues](https://github.com/abhishekpatel946/instagram-clone/issues) for a list of proposed features (and known issues).
+
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+
+<!-- CONTACT -->
+## Contact
+
+Project Link: [https://github.com/abhishekpatel946/instagram-clone](https://github.com/abhishekpatel946/instagram-clone)
+
+
+
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+* [Img Shields](https://shields.io)
+* [Choose an Open Source License](https://choosealicense.com)
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/abhishekpatel946/instagram-clone.svg?style=flat
+[contributors-url]: https://github.com/abhishekpatel946/instagram-clone/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/abhishekpatel946/instagram-clone.svg?style=flat
+[forks-url]: https://github.com/abhishekpatel946/instagram-clone/network/members
+[stars-shield]: https://img.shields.io/github/stars/abhishekpatel946/instagram-clone.svg?style=flat
+[stars-url]: https://github.com/abhishekpatel946/instagram-clone/stargazers
+[issues-shield]: https://img.shields.io/github/issues/abhishekpatel946/instagram-clone.svg?style=flat
+[issues-url]: https://github.com/abhishekpatel946/instagram-clone/issues
