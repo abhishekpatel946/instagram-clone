@@ -11,7 +11,7 @@
     <img src="src/Assets/logo-readme.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Unofficial Netflix - README</h3>
+  <h3 align="center">Instagram Clone - README</h3>
 </p>
 
 
@@ -19,14 +19,15 @@
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
-- [Insgtram Clone)](#insgtram-clone)
-    - [Built With](#built-with)
+- [Instagram Clone](#instagram-clone)
+    - [Link to the application](#linktotheapp)
+    - [Built Using](#built-using)
   - [Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
-  - [Usage](#usage)
+  - [Usage Experience](#usage-experience)
   - [Road map](#road-map)
-  - [Contributing](#contributing)
+  - [Contribution](#contribution)
   - [Contact](#contact)
   - [Acknowledgements](#acknowledgements)
 
@@ -36,20 +37,27 @@
 ## About The Project
 <p align="center">
   <a href="https://github.com/abhishekpatel946/instagram-clone">
-<!--     <img src="Icon/logo-passmanager.jpeg" alt="Logo" width="100" height="100"> -->
+<!--     <img src="Icon/logo-passmanager.jpeg" alt="Logo" width="10" height="10"> -->
     <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png" alt="Logo" width="600" height="200">
   </a>
 </p>
 
-# [Insgtram Clone](https://instagram-clone-59a0c.web.app/)
+# [Instgaram Clone](https://instagram-clone-59a0c.web.app/)
 
-This is the fun project clone an Instgram and make major functionality like upload a post, comment a post, singIn-singUp authentication etc...
+This is the fun project where we created a clone of Instgram and added some major functionality like upload a post, comment on a post, singIn-singUp authentication, etc...
 
+### Some more details:
 For the frontend we're used here React and Custom CSS for styling and hosted using Firebase.
+<a name="linktotheapp"></a>
+### Link to our application:
+https://instagram-clone-59a0c.web.app/
 
-here it is :- https://instagram-clone-59a0c.web.app/
+Status:
+```sh
+live and running
+```
 
-### Built With
+### Built Using
 This section should list any major frameworks that you built using your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples:
 * [React](https://reactjs.org/docs/getting-started.html)
 * [Firebase](https://firebase.google.com/docs)
@@ -78,30 +86,29 @@ firebase
 
 ### Installation
 
-1. Fork the repo
+1. Fork the repository 
 ```sh
 Fork
 ```
 
-2. Clone the repo
+2. Clone the repository
 ```sh
 https://githubc.com/abhishekpatel946/instagram-clone.git
 ```
 
-3. Run on localhost
+3. Run on localhost server
 ```sh
 npm start
 ```
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Usage experience
 
+### Gallery
 ![1](https://github.com/abhishekpatel946/instagram-clone/blob/master/src/Assets/3.png)
 ![2](https://github.com/abhishekpatel946/instagram-clone/blob/master/src/Assets/1.png)
 ![3](https://github.com/abhishekpatel946/instagram-clone/blob/master/src/Assets/2.png)
 
-
-_For more examples, please refer to the [Documentation]()_
 
 
 <!-- ROAD MAP -->
@@ -111,11 +118,12 @@ See the [open issues](https://github.com/abhishekpatel946/instagram-clone/issues
 
 
 
-<!-- CONTRIBUTING -->
-## Contributing
+<a name="contribution"></a>
+## Contribution
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
+#### Steps to follow:
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
