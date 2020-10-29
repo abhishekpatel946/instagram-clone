@@ -33,6 +33,7 @@
 
 
 
+
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 <p align="center">
@@ -52,9 +53,9 @@ For the frontend we're used here React and Custom CSS for styling and hosted usi
 ### Link to our application:
 https://instagram-clone-59a0c.web.app/
 
-Status:
+
 ```sh
-live and running
+Status: live and running
 ```
 
 ### Built Using
