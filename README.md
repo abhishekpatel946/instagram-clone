@@ -43,7 +43,7 @@
   </a>
 </p>
 
-# [Instgaram Clone](https://instagram-clone-59a0c.web.app/)
+# [Instagram Clone](https://instagram-clone-59a0c.web.app/)
 
 This is the fun project where we created a clone of Instgram and added some major functionality like upload a post, comment on a post, singIn-singUp authentication, etc...
 
