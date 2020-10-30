@@ -4,7 +4,6 @@
 [![Issues][issues-shield]][issues-url]
 
 
-<!-- PROJECT LOGO -->
 <br />
 <p align="center">
   <a href="https://github.com/abhishekpatel946/instagram-clone">
@@ -15,8 +14,6 @@
 </p>
 
 
-
-<!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
 - [Instagram Clone](#instagram-clone)
@@ -34,11 +31,9 @@
 
 
 
-<!-- ABOUT THE PROJECT -->
 ## About The Project
 <p align="center">
   <a href="https://github.com/abhishekpatel946/instagram-clone">
-<!--     <img src="Icon/logo-passmanager.jpeg" alt="Logo" width="10" height="10"> -->
     <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png" alt="Logo" width="600" height="200">
   </a>
 </p>
@@ -66,8 +61,6 @@ This section should list any major frameworks that you built using your project.
 
 
 
-
-<!-- GETTING STARTED -->
 ## Getting Started
 
 This is an example of how you may give instructions on setting up your project locally.
@@ -102,7 +95,6 @@ https://githubc.com/abhishekpatel946/instagram-clone.git
 npm start
 ```
 
-<!-- USAGE EXAMPLES -->
 ## Usage experience
 
 ### Gallery
@@ -111,8 +103,6 @@ npm start
 ![3](https://github.com/abhishekpatel946/instagram-clone/blob/master/src/Assets/2.png)
 
 
-
-<!-- ROAD MAP -->
 ## Road map
 
 See the [open issues](https://github.com/abhishekpatel946/instagram-clone/issues) for a list of proposed features (and known issues).
@@ -132,21 +122,17 @@ Contributions are what make the open source community such an amazing place to b
 5. Open a Pull Request
 
 
-<!-- CONTACT -->
 ## Contact
 
 Project Link: [https://github.com/abhishekpatel946/instagram-clone](https://github.com/abhishekpatel946/instagram-clone)
 
 
 
-<!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 * [Img Shields](https://shields.io)
 * [Choose an Open Source License](https://choosealicense.com)
 
 
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/abhishekpatel946/instagram-clone.svg?style=flat
 [contributors-url]: https://github.com/abhishekpatel946/instagram-clone/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/abhishekpatel946/instagram-clone.svg?style=flat
